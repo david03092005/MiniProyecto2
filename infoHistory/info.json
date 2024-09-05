@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "sound": "timeTravel.wav",
+        "volume": 0.5,
+        "text": "Eres un cientifico brillante que ha creado una maquina del tiempo.\nQuieres viajar a diferentes epocas para corregir errores historicos e intentar cambiarlos. \nSin embargo, debes elegir sabiamente que errores corregir, ya que una mala decision podria afectar el pasado, el futuro o ambos.\nAhora debes elegir a que epoca deseas viajar:",
+        "option": "",
+        "position": [0.0, 0.0, 0.0]
+    },
+    {
+        "id": 1,
+        "sound": "sil.wav",
+        "volume": 1.0,
+        "text": "Has llegado al majestuoso Antiguo Egipto, alrededor del año 3100 a.C. \nAnte ti se despliega una civilización vibrante y llena de misterios. \nEl sol brilla intensamente sobre el vasto desierto, mientras el imponente río Nilo se escuchaba a lo lejos. \nA tu alrededor puedes apreciar una gran cantidad de movimiento, que te gustaria ver: ",
+        "option": "Antiguo Egipto (3100 a.C)",
+        "position": [-1.0, 0.0, 0.0]
+    },
+    {
+        "id": 2,
+        "sound": "disparos.wav",
+        "volume": 1.0,
+        "text": "",
+        "option": "Europa (1914)",
+        "position": [0.0, 1.0, 0.0]
+    },
+    {
+        "id": 3,
+        "sound": "sil.wav",
+        "volume": 1.0,
+        "text": "",
+        "option": "América (1492)",
+        "position": [0.0, 0.0, 1.0]
+    },
+    {
+        "id": 4,
+        "sound": "sil.wav",
+        "volume": 1.0,
+        "text": " \n",
+        "option": "Pirámides de Giza en construcción.",
+        "position": [0.0, 0.0, 0.0]
+    },
+    {
+        "id": 5,
+        "sound": "sil.wav",
+        "volume": 1.0,
+        "text": "",
+        "option": "Los mercados.",
+        "position": [0.0, 0.0, 0.0]
+    },
+    {
+        "id": 6,
+        "sound": "sil.wav",
+        "volume": 1.0,
+        "text": "",
+        "option": "Los templos dedicados a los dioses.",
+        "position": [0.0, 0.0, 0.0]
+    }
+]

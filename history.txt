@@ -1,0 +1,236 @@
+librería OS del pad relativo de Windows para generar el absoluto, se sube al main de la rama DEV
+
+lista de épocas:
+
+Antiguo Egipto (3100 a.C) -Piramide Giza
+Europa (1914) Primera guerra mundial
+América (1492) Descubrimiento de America
+-------------------------------------------------------------------------------------------------------------
+
+HISTORIA VIAJERO EN EL TIEMPO:
+
+Narrador: Eres un científico brillante que ha creado una máquina del tiempo. 
+Quieres viajar a diferentes épocas para corregir errores históricos e intentar cambiarlos. 
+Sin embargo, debes elegir sabiamente qué errores corregir, ya que una mala decisión podría afectar el pasado, el futuro o ambos.
+Ahora debes elegir que época deseas viajar:
+
+"""la idea es solo colocar la fecha"""
+1. Antiguo Egipto (3100 a.C)
+2. Europa (1914)
+3. América (1492)
+
+Presiona 4 si deseas salir del juego.
+
+***********Opción 1 (Antiguo Egipto)
+
+Has llegado al majestuoso Antiguo Egipto, alrededor del año 3100 a.C. (sonido egipcio)
+Ante ti se despliega una civilización vibrante y llena de misterios.  (sonido de gente y sonidos egipcios (suaves))
+El sol brilla intensamente sobre el vasto desierto, mientras el imponente río Nilo se escuchaba a lo lejos. (sonidos de rio (lejano))
+
+A tu alrededor puedes apreciar una gran cantidad de movimiento, que deseas ver? (sonido egipcio con tono de misterio)
+
+1. Pirámides de Giza en construcción.
+2. Los mercados.
+3. Los templos dedicados a dioses.
+
+~~~~~~~Si escoge opción 1 (Pirámides)~~~~~~~
+Ante ti se alzan las imponentes estructuras en diferentes etapas de construcción. (sonidos de construcción con martillos y cinceles)
+Los esclavos se afanan bajo el sol abrasador, utilizando herramientas primitivas para mover los enormes bloques de piedra. (sonidos de arrastrar piedras)
+
+Deseas aportar medidas de seguridad para los esclavos? (sonido egipcio con tono de misterio)
+
+1. Si
+2. No
+
+---Opción 1 (Si)
+Implementas medidas de seguridad que reducen los accidentes y aumentan la eficiencia.  (sonido de vítores)
+
+
+---Opción 2 (No)
+Ignoras las condiciones de trabajo, lo que resulta en numerosos accidentes y retrasos. (Murmullo de quejas y dolor)
+
+########### No importa que opción escogió anteriormente no afecta el transcurso de la historia.
+
+Vaz caminando por los alrededores mientras vez trabajar a los esclavos realizar lo que en un futuro será una de las 7 maravillas del mundo. (sonidos de construcción con martillos y cinceles)
+
+Escuchas hablar a unas personas con trajes raros, y logras entender que planean una nueva técnica de construcción para acelerar la construcción. (sonidos de murmullos) 
+No eres muy bueno para plantear técnicas de construcción, aun así deseas aportar tus ideas? 
+
+1. Aporta tus ideas.
+2. Decides no interrumpir.
+
+---Opción 1 (Si)
+
+Introduces técnicas inadecuadas que causan el colapso parcial de la estructura. (sonido de desmoronamiento de piedras) 
+La construcción se detiene y eres culpado por el desastre. (sonido de personas corriendo y gritando)
+
+~
+Corres agitado intentando escapar de las personas con trajes raros montando en sus carros de guerra para atraparte por lo que hiciste. (sonidos de carros tirado por caballos)
+
+Logras llegar a la maquina de tiempo y rápidamente la activas: (sonidos de maquinas futuristas)
+
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como se hizo cambios que afectaron ese pasado, entonces aquí se vera reflejado cambios en las otras dos épocas"""
+
+---Opción 2 (No)
+
+Logras ver que implementan rampas que facilitan el transporte de bloques y aceleran la construcción. (sonido de bloques de piedra deslizándose suavemente)
+La pirámide se levanta con precisión y estabilidad. (sonido de vítores)
+
+~
+Logras apreciar en primera instancia el acabado de la majestuosa pirámide. (sonido de asombro y sonido egipcio a lo lejos)
+Después de un rato decides ir de vuelta a la maquina del tiempo. (sonido de maquina futurista)
+
+"""Esto depende de cual no has visitado"""
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como no se hizo cambios que afectaron ese pasado, no se vera reflejado en las otras dos épocas"""
+
+~~~~~~~Si escoge opción 2 (Mercado)~~~~~~~
+
+Has decidido explorar el bullicioso mercado del Antiguo Egipto. Es un lugar vibrante y lleno de vida, donde comerciantes y compradores se reúnen para intercambiar bienes y servicios. (sonidos del bullicio mercado)
+
+El río Nilo esta ubicado a la izquierda del mercado facilitando el transporte de mercancías, por lo que puedes ver barcazas cargadas de productos. (sonidos del rio y botes remando)
+
+Deseas hablar con los comerciantes para aprender más sobre sus productos y métodos de comercio?. (sonidos del bullicio mercado)
+
+1. Te aventuras a aprender.
+2. Acércate a las barcazas.
+3. Sigues de largo.
+
+---Opción 1 (Te aventuras a comprar)
+
+Ganas valiosa información sobre las rutas comerciales y los bienes más demandados. (sonido de cachiin (ese sonido de cuando abres la caja en los mercados)) 
+Esto te permite hacer recomendaciones que mejoran la economía local. (conversaciones animadas "con risas cortas")
+
+Ganaste algo de dinero debido a que le agradaste a los comerciantes, que te quieres comprar? (sonidos de monedas tintineando)
+
+input:
+"""Si no quieres, no la guardes"""
+
+Vas caminando feliz y satisfecho con lo que compraste, ahora que deseas hacer? (sonidos de pasos y tarareos)
+
+1. Acércate a las barcazas. 			"""Si se elige esta opción va a ser lo mismo que en la opción 2"""
+2. Sigues de largo. 				"""Si se elige esta opción va a ser lo mismo que en la opción 3"""
+3. Dirigite a la maquina hacia otra epoca.
+
+~~Opción 3 (irigite a la maquina hacia otra epoca)
+
+---Opción 2 (acércate a las barcazas)
+
+Decides acercarte a las barcazas que navegan por el río Nilo. (sonidos de botes con remos)
+Los marineros trabajan arduamente, utilizando remos y velas rectangulares para maniobrar las embarcaciones. (sonidos del rio Nilo)
+
+Te vas hacercando más a las barcazas, decides conversar con los marinero?. (sonido de pisadas y botes chocando contra el agua)
+
+1. Aprender más sobre rutas y métodos de navegación.
+2. Sigues de largo.						"""Si se elige esta opción va a ser lo mismo que en la opción 3"""
+
+~~~Opción 1 (Aprender más sobre sus rutas y métodos de navegación)
+
+Ganas valiosa información sobre las rutas comerciales y los desafíos que enfrentan. (sonido de las olas y conversaciones animadas)
+Te emocionaste y aceptaste ir a navegar un rato con ellos, pero, no contaban con las grandes olas que se avecinaban. (sonido de olas agresivas)
+Una de esas grandes olas les volteo la barcaza tirándolos a todos al agua, y tu al no saber nadar te ahogas. (sonido de olas agresivas y sonido de ahogo)
+
+GAME OVER (sonido de game over)
+"""De vuelta al principio"""
+
+---Opción 3 (Sigues de largo)
+
+Caminas tranquilamente al lado izquierdo del rio Nilo. (sonido en lado derecho del rio y pasos)
+Escuchas las risas y gritos de niños jugando a tu izquierda. (sonido lado izquierdo las risas y gritos de niños jugando junto con pasos)
+Después de un rato decides ir de vuelta a la maquina del tiempo. (sonido de maquina futurista)
+
+"""Esto depende de cual no has visitado"""
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como no se hizo cambios que afectaron ese pasado, no se vera reflejado en las otras dos épocas"""
+
+~~~~~~~Si escoge opción 3 (Templos)~~~~~~~
+
+Has decidido explorar los templos y santuarios del Antiguo Egipto, estos lugares sagrados son el corazón espiritual de la civilización egipcia. (sonidos egipcios)
+Mientras vas caminando por el templo te das cuenta que estos aunque no son tan imponentes como los que se construirán en siglos posteriores son igual de impresionantes. (sonidos de pasos y sonidos egipcios)
+
+Durante tu recorrido te encuentras con un sacerdote, deseas hablar con él para saber sobre los rituales y creencias religiosas? (Sonido egipcios misterioso)
+
+1. Aprende sobre su religión.
+2. Tal vez otro día.
+
+---Opción 1 (Aprende sobre su religión)
+
+El sacerdote te ofrece un recorrido por el templo, explicando los significados de las diferentes áreas y símbolos. (sonido de pasos y la voz del sacerdote explicando)
+Además, te invita a participar en un ritual de oración y ofrenda a los dioses. (sonido de cánticos)
+
+1. Aceptas.
+2. Rechazas.
+
+~~Opción 1 (Aceptas)
+
+Participas respetuosamente en el ritual, ganando la confianza y el respeto del sacerdote y los fieles. (sonido de cánticos + campanas suaves)
+Aprendes valiosa información sobre la cultura y religión egipcia. (Sonido egipcios)
+Después el recorrido, decides ir de vuelta a la maquina del tiempo. (sonido de maquina futurista)
+
+"""Esto depende de cual no has visitado"""
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como no se hizo cambios que afectaron ese pasado, no se vera reflejado en las otras dos épocas"""
+
+~~Opción 2 (Rechazas)
+
+El sacerdote comienza a desconfiar de tus intenciones y te ve como alguien ajeno a las costumbres y creencias locales. (susurros de desaprobación)
+Eres símbolo de desprecio, debido a que la comunidad comienza a verte como un forastero o alguien que no respeta sus tradiciones. (sonidos alegatos y gritos)
+Comienzas a ser perseguido por carros de guerra, que decides? (sonidos de persecución)
+
+1. Correr.
+2. Dejar que te atrapen. 
+
+~~Opción 1 (Correr)
+
+Corres agitado intentando escapar de las personas con trajes raros montando en sus carros de guerra para atraparte por lo que hiciste. (sonidos de carros tirado por caballos)
+
+Logras llegar a la maquina de tiempo y rápidamente la activas: (sonidos de maquinas futuristas)
+
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como no se hizo cambios que afectaron ese pasado, no se vera reflejado en las otras dos épocas"""
+
+~~Opción 2 (Dejar que te atrapen)
+Te detienes y dejas que te atrapen, por lo que se dirigen hacia a ti. (sonidos de carros tirado por caballos)
+te atraviesan con una espada y mueres. (Sonido ahogado y de espada atravesando)
+
+GAME OVER (sonido de game over)
+"""De vuelta al principio"""
+
+
+---Opción 2 (Tal vez otro día)
+
+Decides seguir de largo y mirar las estatuas de los dioses que están. (sonidos egipcios)
+En el camino te encuentras con jeroglíficos, lo cual, Decides aprender a leer jeroglíficos para comprender mejor la cultura y la historia egipcia. (sonidos egipcios)
+por error borraste un jeroglífico, pero no te importo, tal vez no sea nada importante. (sonidos cómico)  
+Después de un rato decides ir de vuelta a la maquina del tiempo. (sonido de maquina futurista)
+
+"""Esto depende de cual no has visitado"""
+1. Europa (1914)
+2. América (1492)
+
+Presiona 3 si deseas salir del juego.
+"""Como se hizo cambios que afectaron ese pasado, entonces aquí se vera reflejado cambios en las otras épocas"""
+
+
+
+
+
+
+
+
