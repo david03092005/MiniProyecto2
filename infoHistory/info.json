@@ -1,58 +1,236 @@
 [
     {
         "id": 0,
-        "sound": "timeTravel.wav",
-        "volume": 0.5,
-        "text": "Eres un cientifico brillante que ha creado una maquina del tiempo.\nQuieres viajar a diferentes epocas para corregir errores historicos e intentar cambiarlos. \nSin embargo, debes elegir sabiamente que errores corregir, ya que una mala decision podria afectar el pasado, el futuro o ambos.\nAhora debes elegir a que epoca deseas viajar:",
+        "sound": ["sonidoInicio.wav"],
+        "volume": [0.2],
+        "text": "Eres un científico brillante que ha creado una máquina del tiempo.\nQuieres viajar a diferentes épocas para corregir errores históricos e intentar cambiarlos. \nSin embargo, debes elegir sabiamente qué errores corregir, ya que una mala decisión podría afectar el pasado, el futuro o ambos.\nAhora debes elegir a qué época deseas viajar:",
         "option": "",
-        "position": [0.0, 0.0, 0.0]
+        "position": [[0.0, 0.0, 0.0]],
+        "gameOver": false
     },
     {
         "id": 1,
-        "sound": "sil.wav",
-        "volume": 1.0,
-        "text": "Has llegado al majestuoso Antiguo Egipto, alrededor del año 3100 a.C. \nAnte ti se despliega una civilización vibrante y llena de misterios. \nEl sol brilla intensamente sobre el vasto desierto, mientras el imponente río Nilo se escuchaba a lo lejos. \nA tu alrededor puedes apreciar una gran cantidad de movimiento, que te gustaria ver: ",
+        "sound": ["sonido-egipcio.wav", "sonido-rio.wav"],
+        "volume": [0.02, 0.3],
+        "text": "Has llegado al majestuoso Antiguo Egipto, alrededor del año 3100 a.C. \nAnte ti se despliega una civilización vibrante y llena de misterios. \nEl sol brilla intensamente sobre el vasto desierto, mientras el imponente río Nilo se escucha a lo lejos. \nA tu alrededor puedes apreciar una gran cantidad de movimiento, ¿qué te gustaría ver?:",
         "option": "Antiguo Egipto (3100 a.C)",
-        "position": [-1.0, 0.0, 0.0]
-    },
-    {
-        "id": 2,
-        "sound": "disparos.wav",
-        "volume": 1.0,
-        "text": "",
-        "option": "Europa (1914)",
-        "position": [0.0, 1.0, 0.0]
+        "position": [[0, 0.0, 0.0], [0.0, 0.0, 10.0]],
+        "gameOver": false
     },
     {
         "id": 3,
-        "sound": "sil.wav",
-        "volume": 1.0,
+        "sound": ["sil.wav", "disparos.wav"],
+        "volume": [1.0, 1.0],
         "text": "",
         "option": "América (1492)",
-        "position": [0.0, 0.0, 1.0]
+        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "gameOver": false
     },
     {
         "id": 4,
-        "sound": "sil.wav",
-        "volume": 1.0,
-        "text": " \n",
+        "sound": ["golpes-martillo.wav", "rocas-arrastrandose.wav", "rocas-arrastrandose.wav", "sonido-egipcio.wav", "esclavos-trabajando.wav", "latigo.wav"],
+        "volume": [0.5, 1, 0.4, 0.005, 0.03, 0.002],
+        "text": "Ante ti se alzan las imponentes estructuras en diferentes etapas de construcción.\nLos esclavos se afanan bajo el sol abrasador, utilizando herramientas primitivas para mover los enormes bloques de piedra.\n\nDeseas aportar medidas de seguridad para los esclavos?",
         "option": "Pirámides de Giza en construcción.",
-        "position": [0.0, 0.0, 0.0]
+        "position": [[0.0, 3.0, 5.0], [10, 0, 0], [-10, -3, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]],
+        "gameOver": false
     },
     {
         "id": 5,
-        "sound": "sil.wav",
-        "volume": 1.0,
-        "text": "",
+        "sound": ["gente-hablando.wav", "caminando-arena.wav", "sonido-rio.wav", "sonido-botes1.wav", "sonido-botes2.wav"],
+        "volume": [0.2, 0.3, 0.3, 0.4, 0.2],
+        "text": "Has decidido explorar el bullicioso mercado del Antiguo Egipto. \nEs un lugar vibrante y lleno de vida, donde comerciantes y compradores se reúnen para intercambiar bienes y servicios.\nEl río Nilo esta ubicado a la izquierda del mercado facilitando el transporte de mercancías, por lo que puedes ver barcazas cargadas de productos.\n\nDeseas hablar con los comerciantes para aprender más sobre sus productos y métodos de comercio?\n",
         "option": "Los mercados.",
-        "position": [0.0, 0.0, 0.0]
+        "position": [[0.0, 0.0, 0.0], [0, -15, 0], [-20, 0, 0], [-25, 0, 0], [-20, 0, 5]],
+        "gameOver": false
     },
     {
         "id": 6,
-        "sound": "sil.wav",
-        "volume": 1.0,
-        "text": "",
+        "sound": ["sonido-egipcio.wav", "pasos-templo.wav"],
+        "volume": [0.007, 0.1],
+        "text": "Has decidido explorar los templos y santuarios del Antiguo Egipto, estos lugares sagrados son el corazón espiritual de la civilización egipcia.\nMientras vas caminando por el templo te das cuenta que estos aunque no son tan imponentes como los que se construirán en siglos posteriores son igual de impresionantes.\nDurante tu recorrido te encuentras con un sacerdote, deseas hablar con él para saber sobre los rituales y creencias religiosas?",
         "option": "Los templos dedicados a los dioses.",
-        "position": [0.0, 0.0, 0.0]
+        "position": [[0.0, 0.0, 0.0], [0, -2, 0]],
+        "gameOver": false
+    },
+    {
+        "id": 7,
+        "sound": ["vitores-gente.wav", "vitores-gente.wav"],
+        "volume": [1, 1],
+        "text": "Implementas medidas de seguridad que reducen los accidentes y aumentan la eficiencia. \nTodos te ven como un genio por haber inventado algo increíble y te piden que te quedes para aportar más ideas a su civilización.\nTe quieres quedar a enseñarles cosas que la humanidad va a descubrir muchos años después?\n",
+        "option": "Sí, aportar medidas de seguridad",
+        "position": [[15, -10, 10], [-5, -10, 15]],
+        "gameOver": false
+    },
+    {
+        "id": 8,
+        "sound": ["gritos.wav", "persona-cayendo.wav"],
+        "volume": [1, 0.9],
+        "text": "Ignoras las condiciones de trabajo, lo que resulta en numerosos accidentes y retrasos.",
+        "option": "No, piensas que hay cosas más importantes",
+        "position": [[10.0, 10.0, 30.0], [-10.0, 30.0, 20.0]],
+        "gameOver": false
+    },
+    {
+        "id": 9,
+        "sound": ["suspenso.wav"],
+        "volume": [0.5],
+        "text": "Luego de varios meses enseñándoles cosas innovadoras para ellos te aburres y te alistas para irte,\npero al darse cuenta de lo que intentas hacer deciden encerrarte,\ny aquí es donde tienes que tomar una decisión osada.",
+        "option": "Sí, debe ser buena idea que la humanidad aprenda cosas antes.",
+        "position": [[0.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 10,
+        "sound": ["caminando-arena.wav"],
+        "volume": [0.3],
+        "text": "Sigues explorando las tierras del antiguo Egipto en busca de algo interesante. \n",
+        "option": "Seguir explorando.",
+        "position": [[0.0, -15.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 11,
+        "sound": ["desesperacion.wav", "correr.wav", "carrozas.wav"],
+        "volume": [0.5, 0.3, 0.2],
+        "text": "Viajaste, fuiste corriendo a donde la primer persona que viste a preguntarle qué fecha era, \ncasualmente volviste al mismo momento cuando empezaste tus viajes en el tiempo,\nPero ahora todo se ve diferente, parece un mundo lleno de tecnología avanzada. \nBuscas desesperado una persona que te pueda ayudar a arreglar tu máquina,\nluego, te das cuenta que eres el enemigo #1 debido a tu invento, \nvives escondiéndote por muchos años más sin encontrar una solución\n",
+        "option": "Viajar lo antes posible a una nueva época, sin saber cuál es, ya que no tienes tiempo para calibrar tu máquina,\nNo tienes la forma de saber si saldrá bien o se dañará la máquina en el intento, o peor aún, puedes morir.",
+        "position": [[0.0, 0.0, 0.0], [0, -2, -1], [0, 0, -30]],
+        "gameOver": true
+    },
+    {
+        "id": 12,
+        "sound": ["sonido-triste.wav"],
+        "volume": [0.3],
+        "text": "Pasaron los años y no se te dio la oportunidad de escapar. \nComo te negaste a seguir colaborando con ellos te fueron alimentando cada vez menos, \nhasta que un día te dejaron de dar alimentos y pocos días después moriste.\n",
+        "option": "Dejarte capturar, en algún momento se te ocurrirá cómo salir y volver a casa.\n",
+        "position": [[0, 0.0, 0.0]],
+        "gameOver": true
+    },
+    {
+        "id": 13,
+        "sound": ["sonidos-plaza.wav", "sonido-egipcio.wav"],
+        "volume": [0.3, 0.005],
+        "text": "Caminas por los alrededores mientras observas a los esclavos siendo explotados para hacer lo que en un futuro será una de las 7 maravillas del mundo. \nEscuchas hablar a unas personas con trajes elegantes, y logras entender que planean una nueva técnica de construcción para acelerar la construcción. \nNo eres muy bueno para plantear técnicas de construcción, aun así deseas aportar tus ideas?\n",
+        "option": "Seguir explorando",
+        "position": [[0.0, 3.0, 5.0], [0, 0, 0]],
+        "gameOver": false
+    },
+    {
+        "id": 14,
+        "sound": ["gritos-gente.wav", "gritos-gente.wav", "rocas.wav"],
+        "volume": [0.3, 0.3, 0.5],
+        "text": "Introduces técnicas inadecuadas que causan el colapso parcial de la estructura.\n La construcción se detiene y eres culpado por el desastre.\n\nCorres agitado intentando escapar de las personas con trajes raros montando en sus carros de guerra para atraparte por lo que hiciste.\nLogras llegar a la maquina de tiempo y tienes tiempo de calibrarla para que te lleve a una época, a cual viajas?\n",
+        "option": "Decides aportar tus ideas.",
+        "position": [[5.0, 0.0, 0.0], [-10.0, 0.0, 0.0], [0, 10, 30]],
+        "gameOver": false
+    },
+    {
+        "id": 15,
+        "sound": ["vitores-gente.wav", "vitores-gente.wav", "maquina-futurista.wav"],
+        "volume": [0.3, 0.3, 0.4],
+        "text": "Logras ver que implementan rampas que facilitan el transporte de bloques y aceleran la construcción.\nLa pirámide se levanta con precisión y estabilidad.\nLogras apreciar en primera instancia el acabado de la majestuosa pirámide.\nDespués de un tiempo largo decides ir de vuelta a la maquina del tiempo.",
+        "option": "Decides no interrumpir.",
+        "position": [[10.0, 0.0, 0.0], [-20.0, 0.0, 5], [0, 0, 5]],
+        "gameOver": false
+    },
+    {
+        "id": 17,
+        "sound": ["sil.wav", "disparos.wav"],
+        "volume": [1.0, 1.0],
+        "text": "",
+        "option": "Viajar a América (1492).",
+        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 19,
+        "sound": ["sil.wav", "disparos.wav"],
+        "volume": [1.0, 1.0],
+        "text": "",
+        "option": "Viajar a América (1492).",
+        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 20,
+        "sound": ["sonido-egipcio.wav", "caching.wav", "gente-hablando.wav"],
+        "volume": [0.03, 1, 0.05],
+        "text": "Ganas valiosa información sobre las rutas comerciales y los bienes más demandados.\nEsto te permite hacer recomendaciones que mejoran la economía local. \nGanaste algo de dinero debido a que le agradaste a los comerciantes, que te quieres comprar?\n",
+        "option": "Te aventuras a aprender sobre el comercio.",
+        "position": [[0.0, 0.0, 0.0], [0.0, 30, 0.0], [0, 0, 0]],
+        "gameOver": false
+    },
+    {
+        "id": 21,
+        "sound": ["gente-hablando.wav", "sonido-rio.wav", "sonido-botes2.wav", "sonido-botes1.wav"],
+        "volume": [0.05, 0.3, 0.3, 0.4],
+        "text": "Decides acercarte a las barcazas que navegan por el río Nilo.\nLos marineros trabajan arduamente, utilizando remos y velas rectangulares para maniobrar las embarcaciones.\n\nDecides conversar con los marinero?.\n",
+        "option": "Te acercas a las barcazas.",
+        "position": [[0.0, 0.0, 0.0], [0.0, 0.0, 5.0], [0, 0, 8], [0, 0, 5]],
+        "gameOver": false
+    },
+    {
+        "id": 22,
+        "sound": ["sonido-rio.wav", "niños.wav", "maquina-futurista.wav"],
+        "volume": [0.3, 0.05, 0.4],
+        "text": "Caminas tranquilamente al lado izquierdo del rio Nilo.\nEscuchas las risas y gritos de niños jugando a tu izquierda.\nDespués de un rato decides ir de vuelta a la maquina del tiempo.\n",
+        "option": "Sigues de largo.",
+        "position": [[5, 0.0, 0.0], [-10, 0, -3], [0, 0, 5]],
+        "gameOver": false
+    },
+    {
+        "id": 23,
+        "sound": ["olas-agresivas.wav", "ahogo.wav", "ahogo.wav", "ahogo.wav"],
+        "volume": [0.7, 0.5, 0.5, 0.4],
+        "text": "Ganas valiosa información sobre las rutas comerciales y los desafíos que enfrentan.\nTe emocionaste y aceptaste ir a navegar un rato con ellos, pero, no contaban con las grandes olas que se avecinaban.\nUna de esas grandes olas les volteo la barcaza tirándolos a todos al agua, y tu al no saber nadar te ahogas.\n",
+        "option": "Aprender más sobre rutas y métodos de navegación.",
+        "position": [[0.0, 0.0, 0.0], [5, -20, 10], [-5, -10, -5], [0, -5, 0]],
+        "gameOver": true
+    },
+    {
+        "id": 24,
+        "sound": ["sonido-egipcio.wav", "pasos-templo.wav", "coro.wav"],
+        "volume": [0.007, 0.1, 0.3],
+        "text": "El sacerdote te ofrece un recorrido por el templo, explicando los significados de las diferentes áreas y símbolos.\nAdemás, te invita a participar en un ritual de oración y ofrenda a los dioses.\n",
+        "option": "Aprende sobre su religión.",
+        "position": [[0.0, 0.0, 0.0], [0, -2, 0], [10, 15, 10]],
+        "gameOver": false
+    },
+    {
+        "id": 25,
+        "sound": ["sonido-egipcio.wav"],
+        "volume": [0.005, 0.4],
+        "text": "Decides seguir de largo y mirar las estatuas de los dioses que están.\nEn el camino te encuentras con jeroglíficos, lo cual, Decides aprender a leer jeroglíficos para comprender mejor la cultura y la historia egipcia.\nPor error borraste un jeroglífico, pero no te importo, tal vez no sea nada importante.\nDespués de un rato decides ir de vuelta a la maquina del tiempo.\n",
+        "option": "Tal vez otro día",
+        "position": [[0.0, 0.0, 0.0], [0, 0, 0]],
+        "gameOver": false
+    },
+    {
+        "id": 26,
+        "sound": ["desaprobacion.wav"],
+        "volume": [0.2],
+        "text": "El sacerdote comienza a desconfiar de tus intenciones y te ve como alguien ajeno a las costumbres y creencias locales. \nEres símbolo de desprecio, debido a que la comunidad comienza a verte como un forastero o alguien que no respeta sus tradiciones.\nComienzas a ser perseguido por carros de guerra, que decides?\n",
+        "option": "Rechazas",
+        "position": [[1, 0.0, 5]],
+        "gameOver": false
+    },
+    {
+        "id": 27,
+        "sound": ["coro.wav", "sonido-egipcio.wav"],
+        "volume": [0.3, 0.005],
+        "text": "Participas respetuosamente en el ritual, ganando la confianza y el respeto del sacerdote y los fieles.\nAprendes valiosa información sobre la cultura y religión egipcia.\nDespués el recorrido, decides ir de vuelta a la maquina del tiempo.\n",
+        "option": "Aceptas",
+        "position": [[0.0, 20, -10], [0, 0, 0]],
+        "gameOver": false
+    },
+    {
+        "id": 28,
+        "sound": ["caminan.wav", "espada-atravesando.wav"],
+        "volume": [0.2, 0.4],
+        "text": "Te detienes y dejas que te atrapen, por lo que se dirigen hacia a ti.\nComo para ellos lo que hiciste fue una falta de respeto no tienen compasión, te atraviesan con una espada y mueres\n",
+        "option": "Dejar que te capturen.",
+        "position": [[0.0, 0.0, 30], [0, -1, 0]],
+        "gameOver": true
     }
 ]
