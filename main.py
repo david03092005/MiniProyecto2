@@ -50,8 +50,14 @@ def main():
         musicThread.join()
         currentNode = paths[int(next) - 1]
 
-    writeMachine(currentNode.get_text(), 0.05)
-    currentNode.play()
+    textThread = threading.Thread(target=writeMachine, args=(currentNode.get_text(), 0.001))
+    musicThread = threading.Thread(target=currentNode.play)
+    musicThread.start()
+    textThread.start()
+    textThread.join()
+    out = input()
+    currentNode.set_stop()
+    musicThread.join()
     writeMachine("El juego a terminado, Muchas gracias por jugar, vuelve cuando quieras.", 0.04)
 
     openal.oalQuit()

@@ -19,26 +19,26 @@
     },
     {
         "id": 3,
-        "sound": ["sil.wav", "disparos.wav"],
-        "volume": [1.0, 1.0],
-        "text": "",
-        "option": "América (1492)",
-        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "sound": ["inicio2.wav"],
+        "volume": [0.2],
+        "text": "Has decidido viajar al año 1492, un momento crucial en la historia.\nEste es el año en que Cristóbal Colón, navegando bajo la bandera de España, llega a las costas del Nuevo Mundo.\nAntes de la llegada de los europeos, América ya estaba habitada por diversas civilizaciones avanzadas y culturas ricas.\n¿Deseas mirar los alrededores?\n",
+        "option": "America (1462)",
+        "position": [[0.0, 0.0, 0.0]],
         "gameOver": false
     },
     {
         "id": 4,
-        "sound": ["golpes-martillo.wav", "rocas-arrastrandose.wav", "rocas-arrastrandose.wav", "sonido-egipcio.wav", "esclavos-trabajando.wav", "latigo.wav"],
-        "volume": [0.5, 1, 0.4, 0.005, 0.03, 0.002],
+        "sound": ["rocas-arrastrandose.wav", "rocas-arrastrandose.wav", "sonido-egipcio.wav", "esclavos-trabajando.wav", "latigo.wav"],
+        "volume": [1, 0.4, 0.005, 0.03, 0.002],
         "text": "Ante ti se alzan las imponentes estructuras en diferentes etapas de construcción.\nLos esclavos se afanan bajo el sol abrasador, utilizando herramientas primitivas para mover los enormes bloques de piedra.\n\nDeseas aportar medidas de seguridad para los esclavos?",
         "option": "Pirámides de Giza en construcción.",
-        "position": [[0.0, 3.0, 5.0], [10, 0, 0], [-10, -3, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]],
+        "position": [[10, 0, 0], [-10, -3, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]],
         "gameOver": false
     },
     {
         "id": 5,
         "sound": ["gente-hablando.wav", "caminando-arena.wav", "sonido-rio.wav", "sonido-botes1.wav", "sonido-botes2.wav"],
-        "volume": [0.2, 0.3, 0.3, 0.4, 0.2],
+        "volume": [0.02, 0.3, 0.3, 0.4, 0.2],
         "text": "Has decidido explorar el bullicioso mercado del Antiguo Egipto. \nEs un lugar vibrante y lleno de vida, donde comerciantes y compradores se reúnen para intercambiar bienes y servicios.\nEl río Nilo esta ubicado a la izquierda del mercado facilitando el transporte de mercancías, por lo que puedes ver barcazas cargadas de productos.\n\nDeseas hablar con los comerciantes para aprender más sobre sus productos y métodos de comercio?\n",
         "option": "Los mercados.",
         "position": [[0.0, 0.0, 0.0], [0, -15, 0], [-20, 0, 0], [-25, 0, 0], [-20, 0, 5]],
@@ -96,7 +96,7 @@
         "text": "Viajaste, fuiste corriendo a donde la primer persona que viste a preguntarle qué fecha era, \ncasualmente volviste al mismo momento cuando empezaste tus viajes en el tiempo,\nPero ahora todo se ve diferente, parece un mundo lleno de tecnología avanzada. \nBuscas desesperado una persona que te pueda ayudar a arreglar tu máquina,\nluego, te das cuenta que eres el enemigo #1 debido a tu invento, \nvives escondiéndote por muchos años más sin encontrar una solución\n",
         "option": "Viajar lo antes posible a una nueva época, sin saber cuál es, ya que no tienes tiempo para calibrar tu máquina,\nNo tienes la forma de saber si saldrá bien o se dañará la máquina en el intento, o peor aún, puedes morir.",
         "position": [[0.0, 0.0, 0.0], [0, -2, -1], [0, 0, -30]],
-        "gameOver": true
+        "gameOver": false
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "text": "Pasaron los años y no se te dio la oportunidad de escapar. \nComo te negaste a seguir colaborando con ellos te fueron alimentando cada vez menos, \nhasta que un día te dejaron de dar alimentos y pocos días después moriste.\n",
         "option": "Dejarte capturar, en algún momento se te ocurrirá cómo salir y volver a casa.\n",
         "position": [[0, 0.0, 0.0]],
-        "gameOver": true
+        "gameOver": false
     },
     {
         "id": 13,
@@ -138,25 +138,25 @@
         "id": 17,
         "sound": ["sil.wav", "disparos.wav"],
         "volume": [1.0, 1.0],
-        "text": "",
-        "option": "Viajar a América (1492).",
+        "text": "Viajero, has recorrido épocas y lugares lejanos, enfrentando desafíos y tomando decisiones que han dejado una huella en la historia. A través de tus acciones, has aprendido sobre culturas antiguas y enfrentado dilemas morales. Aunque algunas de tus decisiones no resultaron como esperabas, cada experiencia ha sido una lección valiosa. Ahora, de vuelta en casa, llevas contigo no solo recuerdos de tus aventuras, sino también una comprensión más profunda de la importancia de cada elección. Los errores son parte del viaje y te ofrecen la oportunidad de crecer y aprender. Gracias por ser parte de esta increíble travesía. El tiempo y la historia siempre estarán abiertos para aquellos que buscan aprender y explorar. Hasta la próxima aventura, viajero. Recuerda, cada nuevo comienzo es una oportunidad para hacerlo mejor.\n",
+        "option": "Terminar.",
         "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
-        "gameOver": false
+        "gameOver": true
     },
     {
         "id": 19,
         "sound": ["sil.wav", "disparos.wav"],
         "volume": [1.0, 1.0],
-        "text": "",
-        "option": "Viajar a América (1492).",
+        "text": "Viajero, has recorrido épocas y lugares lejanos, enfrentando desafíos y tomando decisiones que han dejado una huella en la historia. A través de tus acciones, has aprendido sobre culturas antiguas, enfrentado dilemas morales y descubierto la importancia de cada elección. Ahora, de vuelta en casa, llevas contigo no solo recuerdos de tus aventuras, sino también una comprensión más profunda del pasado y su impacto en el presente. Tu viaje ha llegado a su fin, pero las lecciones que has aprendido perdurarán. Gracias por ser parte de esta increíble travesía. El tiempo y la historia siempre estarán abiertos para aquellos que buscan aprender y explorar. Hasta la próxima aventura, viajero.\n",
+        "option": "Terminar.",
         "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
-        "gameOver": false
+        "gameOver": true
     },
     {
         "id": 20,
         "sound": ["sonido-egipcio.wav", "caching.wav", "gente-hablando.wav"],
         "volume": [0.03, 1, 0.05],
-        "text": "Ganas valiosa información sobre las rutas comerciales y los bienes más demandados.\nEsto te permite hacer recomendaciones que mejoran la economía local. \nGanaste algo de dinero debido a que le agradaste a los comerciantes, que te quieres comprar?\n",
+        "text": "Ganas valiosa información sobre las rutas comerciales y los bienes más demandados.\nEsto te permite hacer recomendaciones que mejoran la economía local. \nGanaste algo de dinero debido a que le agradaste a los comerciantes, que vas a hacer ahora?\n",
         "option": "Te aventuras a aprender sobre el comercio.",
         "position": [[0.0, 0.0, 0.0], [0.0, 30, 0.0], [0, 0, 0]],
         "gameOver": false
@@ -183,10 +183,10 @@
         "id": 23,
         "sound": ["olas-agresivas.wav", "ahogo.wav", "ahogo.wav", "ahogo.wav"],
         "volume": [0.7, 0.5, 0.5, 0.4],
-        "text": "Ganas valiosa información sobre las rutas comerciales y los desafíos que enfrentan.\nTe emocionaste y aceptaste ir a navegar un rato con ellos, pero, no contaban con las grandes olas que se avecinaban.\nUna de esas grandes olas les volteo la barcaza tirándolos a todos al agua, y tu al no saber nadar te ahogas.\n",
+        "text": "Ganas valiosa información sobre las rutas comerciales y los desafíos que enfrentan.\nTe emocionaste y aceptaste ir a navegar un rato con ellos, pero, no contaban con las grandes olas que se les avecinan.\nUna de esas grandes olas les volteo la barcaza tirándolos a todos al agua, y tu al no saber nadar te ahogas.\n",
         "option": "Aprender más sobre rutas y métodos de navegación.",
         "position": [[0.0, 0.0, 0.0], [5, -20, 10], [-5, -10, -5], [0, -5, 0]],
-        "gameOver": true
+        "gameOver": false
     },
     {
         "id": 24,
@@ -231,6 +231,187 @@
         "text": "Te detienes y dejas que te atrapen, por lo que se dirigen hacia a ti.\nComo para ellos lo que hiciste fue una falta de respeto no tienen compasión, te atraviesan con una espada y mueres\n",
         "option": "Dejar que te capturen.",
         "position": [[0.0, 0.0, 30], [0, -1, 0]],
+        "gameOver": false
+    },
+
+    {
+        "id": 30,
+        "sound": ["selva.wav", "mono.wav"],
+        "volume": [1.0, 0.3],
+        "text": "Logras observar una selva densa, montañas y lagos, y a lo lejos puedes ver ciudades.\nA tu derecha puedes escuchar a los monos danzar entre los árboles.\nDecides avanzar para mirar más de cerca las ciudades que viste a lo lejos.\n",
+        "option": "Si",
+        "position": [[0, 0.0, 0.0], [20, 10, -3]],
+        "gameOver": false
+    },
+    {
+        "id": 31,
+        "sound": ["pasos-jungla.wav"],
+        "volume": [0.3],
+        "text": "Decides que es mejor avanzar y mirar si encontrabas señales de civilización.\nLogras ver unas ciudades a lo lejos por lo que apresuras el paso.\n",
+        "option": "No",
+        "position": [[0.0, -2, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 32,
+        "sound": ["gente-hablando.wav"],
+        "volume": [0.05],
+        "text": "Al llegar, te encuentras con una serie de civilizaciones avanzadas, cada una con su propia cultura, arquitectura y forma de vida.\nLa capital del Imperio Azteca, situada en una isla en el lago Texcoco, es una ciudad impresionante con templos majestuosos, canales que lo atraviesan y mercados bulliciosos.\nQue deseas hacer primero?\n",
+        "option": "Seguir avanzando",
+        "position": [[5, 0.0, 10]],
+        "gameOver": false
+    },
+    {
+        "id": 33,
+        "sound": ["coro.wav"],
+        "volume": [0.3],
+        "text": "El Templo Mayor es el centro religioso de Tenochtitlán, dedicado a los dioses.\nUn azteca que está dentro del Templo logra verte y pide que participes en el ritual que se realizará.\n",
+        "option": "Visitar el Templo Mayor",
+        "position": [[10, 15, 10]], 
+        "gameOver": false
+    },
+    {
+        "id": 34,
+        "sound": ["tambores.wav", "coro.wav"],
+        "volume": [1.0, 0.3],
+        "text": "Participas respetuosamente en el ritual, ganando la confianza de los sacerdotes y la comunidad.\nUn sacerdote se acerca a ti y te dice:\n'Viajero, he visto visiones en el fuego sagrado.\nHabrá gente llegando en extraños animales flotantes, sus rostros pálidos y sus intenciones ocultas.\nEn un futuro, a su llegada, nuestra amada gente será esclava y nuestra querida tierra ya no será nuestra.\nAyúdanos, por favor, a evitar este destino sombrío.\nLos dioses te han enviado para guiarnos y protegernos.\n'",
+        "option": "Participar en el ritual",
+        "position": [[0.0, 0.0, 0.0], [10, 15, 10]],
+        "gameOver": false
+    },
+    {
+        "id": 35,
+        "sound": ["vitores-gente.wav", "vitores-gente.wav"],
+        "volume": [0.3, 0.4],
+        "text": "Propones formar alianzas con otras tribus para fortalecer la resistencia contra los invasores.\nEnseñas técnicas de defensa y estrategias para proteger su tierra,ganando su gratitud y respeto.\nTe haz quedado mucho tiempo en esta época al ayudar a los aztecas.\n",
+        "option": "Ayudas a los aztecas a prepararse.",
+        "position": [[15, -10, 10], [-5, -10, 15]],
+        "gameOver": false
+    },
+    {
+        "id": 36,
+        "sound": ["maquina_futurista.wav"],
+        "volume": [1.0],
+        "text": "Caminas de nuevo a la selva donde dejaste la máquina del tiempo y te diriges a casa.\n",
+        "option": "Irte de esta época",
+        "position": [[1.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 37,
+        "sound": ["desaprobacion.wav", "tambores.wav"],
+        "volume": [0.2, 1.0],
+        "text": "Decides negarte a ayudar a los aztecas en su petición de asistencia para enfrentar la llegada de los extranjeros. \nEl sacerdote y la comunidad te observan con una mezcla de decepción y desconfianza. \nTe sientes cada vez más aislado y señalado por no haber ofrecido tu ayuda en un momento crucial. \nCorres agitado intentando escapar de las personas que te siguen para atraparte y obligarte a ayudarlos. \nLogras llegar a la máquina del tiempo y rápidamente la activas.\n",
+        "option": "Te niegas a ayudarlos.",
+        "position": [[1, 0.0, 5]],
+        "gameOver": false
+    },
+    {
+        "id": 38,
+        "sound": ["sonido-rio.wav", "sonido-botes1.wav"],
+        "volume": [0.4, 0.3],
+        "text": "Los canales de Tenochtitlán están detrás de ti, \nlos cuales son una parte vital de la infraestructura de la ciudad, utilizados para el transporte y el comercio. \nAl voltear, ves que el embarcadero está lleno de canoas de diferentes tamaños, algunas cargadas con mercancías.\n",
+        "option": "Ir hacia los Canales",
+        "position": [[0, 0, -10], [0, 0, -11]],
+        "gameOver": false
+    },
+    {
+        "id": 39,
+        "sound": ["sonido-botes2.wav"],
+        "volume": [0.3],
+        "text": "Navegas por los canales, observando la vida cotidiana y aprendiendo sobre ella. \nDisfrutas de un gran momento con los aztecas y ayudándolos con la pesca. \nUna vez que están en tierra, los aztecas te regalan pescado como ofrenda de agradecimiento por ayudarles.\n",
+        "option": "Ir en canoa.",
+        "position": [[0, -1, -1]],
+        "gameOver": false
+    },
+    {
+        "id": 40,
+        "sound": ["sonido-triste.wav"],
+        "volume": [0.3],
+        "text": "Aunque tú los rechaces, les das a entender la razón de tu rechazo y comprenden tu situación. \nLuego te despides de ellos para volver a tomar la máquina.\n",
+        "option": "Rechazas el pescado (no te gusta).",
+        "position": [[0.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 41,
+        "sound": ["tambores.wav"],
+        "volume": [1.0],
+        "text": "Al aceptar el regalo de agradecimiento de los aztecas, te despides de ellos. \nDespués de un rato paseando por los alrededores decides dirigirte hacia la máquina.\n",
+        "option": "Aceptas el pescado.",
+        "position": [[1.0, 0.0, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 42,
+        "sound": ["pajaros.wav, niños.wav"],
+        "volume": [0.3, 0.05],
+        "text": "Vas caminando por los lugares disfrutando del paisaje, \nescuchando los pájaros arriba en el cielo con dirección a su nido. \nEscuchas a los niños correr y jugar con ramas en la mano como si fueran muñecos.\n",
+        "option": "Disfrutar del paisaje.",
+        "position": [[0.0, 30, -5], [0, -2, 10]],
+        "gameOver": false
+    },
+    {
+        "id": 43,
+        "sound": ["ninos.wav"],
+        "volume": [0.05],
+        "text": "Te diriges hacia los niños y les pides jugar con ellos. \nLos niños y tú se divierten con las ramas y dibujan en el suelo de tierra creando imágenes divertidas. \nDespués ves que es hora de seguir tu camino y te despides de los niños para dirigirte hacia la máquina.\n",
+        "option": "Únete a los niños y juega con ellos.",
+        "position": [[0, 0, 4]],
+        "gameOver": false
+    },
+    {
+        "id": 44,
+        "sound": ["ninos.wav"],
+        "volume": [0.05],
+        "text": "Decides continuar con tu rumbo escuchando atrás los gritos de los niños alejándose cada vez más. \nY después de un rato, decides dirigirte hacia la máquina.\n",
+        "option": "Sigue de largo.",
+        "position": [[0.0, 0.0, -20]],
+        "gameOver": false
+    },
+    {
+        "id": 46,
+        "sound": ["sonidos-plaza.wav"],
+        "volume": [0.1],
+        "text": "Decides explorar el Mercado de Tlatelolco, uno de los centros comerciales más grandes y vibrantes de Mesoamérica. \nAl llegar, te encuentras con una escena llena de vida y actividad.\nQue deseas hacer?\n",
+        "option": "Explorar el Mercado de Tlatelolco.",
+        "position": [[0.0, 2.0, 5.0]],
+        "gameOver": false
+    },
+    {
+        "id": 47,
+        "sound": ["sonidos-plaza.wav"],
+        "volume": [0.1],
+        "text": "La plaza del mercado es enorme, llena de puestos organizados meticulosamente según los productos que ofrecen. \nHay secciones dedicadas a alimentos, textiles, artesanías, animales y más.\nQuieres observar el mercado por ti mismo o le pides ayuda a alguien?\n",
+        "option": "Ir a la Gran Plaza.",
+        "position": [[0.0, 3.0, 5.0]],
+        "gameOver": false
+    },
+    {
+        "id": 48,
+        "sound": ["tambores.wav"],
+        "volume": [1.0],
+        "text": "Te diriges hacia una persona y le pides su ayuda para que te guíe por la plaza. \nLa persona te señala el camino, pero terminaste en el bosque en lo más profundo. \nDe la nada sale un oso y te ataca, muriendo al instante.\n",
+        "option": "Pides ayuda.",
+        "position": [[0.0, 0.0, 0.0]],
         "gameOver": true
+    },
+    {
+        "id": 49,
+        "sound": ["pasos-jungla.wav"],
+        "volume": [0.3],
+        "text": "Tú solito intentas de no perderte e ir por los lugares más concurridos, \nlogrando visitar cada mercado de la gran plaza. \nDespués de una ardua caminata decides que es mejor regresar a la máquina.\n",
+        "option": "Te las ingenias para no perderte.",
+        "position": [[0.0, -2, 0.0]],
+        "gameOver": false
+    },
+    {
+        "id": 50,
+        "sound": ["maquina_futurista.wav"],
+        "volume": [0.5],
+        "text": "Rechazas participar, causando desaprobación entre los sacerdotes. Debido a esto decides salir del templo y continuar el recorrido por otro lugar.\n",
+        "option": "Rechazar invitación",
+        "position": [[0.0, 0.0, 0.0]],
+        "gameOver": false
     }
 ]
