@@ -22,7 +22,7 @@ def main():
 
     currentNode = g.get_node(0)
     while (not currentNode.get_final()):
-        textThread = threading.Thread(target=writeMachine, args=(currentNode.get_text(), 0.001))
+        textThread = threading.Thread(target=writeMachine, args=(currentNode.get_text(), 0.02))
         musicThread = threading.Thread(target=currentNode.play)
         musicThread.start()
         textThread.start()
@@ -30,9 +30,9 @@ def main():
         paths = g.get_edge_node(currentNode)
         for i, n in enumerate(paths):
             text = str(i+1) + " --> " + n.get_option()
-            writeMachine(text, 0.001)
+            writeMachine(text, 0.02)
     
-        writeMachine("Que deseas Hacer: ", 0.001)
+        writeMachine("Que deseas Hacer: ", 0.02)
         next = -1
         error = True
         while (error):
@@ -50,12 +50,12 @@ def main():
         musicThread.join()
         currentNode = paths[int(next) - 1]
 
-    textThread = threading.Thread(target=writeMachine, args=(currentNode.get_text(), 0.001))
+    textThread = threading.Thread(target=writeMachine, args=(currentNode.get_text(), 0.02))
     musicThread = threading.Thread(target=currentNode.play)
     musicThread.start()
     textThread.start()
     textThread.join()
-    out = input()
+    out = input("Enter para finalizar. \n")
     currentNode.set_stop()
     musicThread.join()
     writeMachine("El juego a terminado, Muchas gracias por jugar, vuelve cuando quieras.", 0.04)

@@ -136,20 +136,20 @@
     },
     {
         "id": 17,
-        "sound": ["sil.wav", "disparos.wav"],
-        "volume": [1.0, 1.0],
+        "sound": ["sonido-triste.wav"],
+        "volume": [0.2],
         "text": "Viajero, has recorrido épocas y lugares lejanos, enfrentando desafíos y tomando decisiones que han dejado una huella en la historia. A través de tus acciones, has aprendido sobre culturas antiguas y enfrentado dilemas morales. Aunque algunas de tus decisiones no resultaron como esperabas, cada experiencia ha sido una lección valiosa. Ahora, de vuelta en casa, llevas contigo no solo recuerdos de tus aventuras, sino también una comprensión más profunda de la importancia de cada elección. Los errores son parte del viaje y te ofrecen la oportunidad de crecer y aprender. Gracias por ser parte de esta increíble travesía. El tiempo y la historia siempre estarán abiertos para aquellos que buscan aprender y explorar. Hasta la próxima aventura, viajero. Recuerda, cada nuevo comienzo es una oportunidad para hacerlo mejor.\n",
         "option": "Terminar.",
-        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "position": [[0.0, 0.0, 0.0]],
         "gameOver": true
     },
     {
         "id": 19,
-        "sound": ["sil.wav", "disparos.wav"],
-        "volume": [1.0, 1.0],
+        "sound": ["inicio2.wav"],
+        "volume": [0.2],
         "text": "Viajero, has recorrido épocas y lugares lejanos, enfrentando desafíos y tomando decisiones que han dejado una huella en la historia. A través de tus acciones, has aprendido sobre culturas antiguas, enfrentado dilemas morales y descubierto la importancia de cada elección. Ahora, de vuelta en casa, llevas contigo no solo recuerdos de tus aventuras, sino también una comprensión más profunda del pasado y su impacto en el presente. Tu viaje ha llegado a su fin, pero las lecciones que has aprendido perdurarán. Gracias por ser parte de esta increíble travesía. El tiempo y la historia siempre estarán abiertos para aquellos que buscan aprender y explorar. Hasta la próxima aventura, viajero.\n",
         "option": "Terminar.",
-        "position": [[1.0, 0.0, 0.0], [-1.0, 0.0, 0.0]],
+        "position": [[0.0, 0.0, 0.0]],
         "gameOver": true
     },
     {
@@ -290,7 +290,7 @@
     },
     {
         "id": 36,
-        "sound": ["maquina_futurista.wav"],
+        "sound": ["maquina-futurista.wav"],
         "volume": [1.0],
         "text": "Caminas de nuevo a la selva donde dejaste la máquina del tiempo y te diriges a casa.\n",
         "option": "Irte de esta época",
@@ -344,7 +344,7 @@
     },
     {
         "id": 42,
-        "sound": ["pajaros.wav, niños.wav"],
+        "sound": ["pajaros.wav", "niños.wav"],
         "volume": [0.3, 0.05],
         "text": "Vas caminando por los lugares disfrutando del paisaje, \nescuchando los pájaros arriba en el cielo con dirección a su nido. \nEscuchas a los niños correr y jugar con ramas en la mano como si fueran muñecos.\n",
         "option": "Disfrutar del paisaje.",
@@ -353,7 +353,7 @@
     },
     {
         "id": 43,
-        "sound": ["ninos.wav"],
+        "sound": ["niños.wav"],
         "volume": [0.05],
         "text": "Te diriges hacia los niños y les pides jugar con ellos. \nLos niños y tú se divierten con las ramas y dibujan en el suelo de tierra creando imágenes divertidas. \nDespués ves que es hora de seguir tu camino y te despides de los niños para dirigirte hacia la máquina.\n",
         "option": "Únete a los niños y juega con ellos.",
@@ -362,7 +362,7 @@
     },
     {
         "id": 44,
-        "sound": ["ninos.wav"],
+        "sound": ["niños.wav"],
         "volume": [0.05],
         "text": "Decides continuar con tu rumbo escuchando atrás los gritos de los niños alejándose cada vez más. \nY después de un rato, decides dirigirte hacia la máquina.\n",
         "option": "Sigue de largo.",
@@ -407,7 +407,7 @@
     },
     {
         "id": 50,
-        "sound": ["maquina_futurista.wav"],
+        "sound": ["maquina-futurista.wav"],
         "volume": [0.5],
         "text": "Rechazas participar, causando desaprobación entre los sacerdotes. Debido a esto decides salir del templo y continuar el recorrido por otro lugar.\n",
         "option": "Rechazar invitación",
